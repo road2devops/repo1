@@ -1,8 +1,8 @@
-file { '/root/satish.conf':
-  ensure => '/bin/sathish.conf',
+file { '/root/just_sati5':
+  ensure => '/bin/just_sati_target',
 }
 
-file { '/root/satish.conf':
+file { '/root/just_sati5':
   ensure => link,
-  target => '/bin/sathish.conf',
+  target => '/bin/just_sati_target',
 }
